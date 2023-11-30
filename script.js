@@ -300,6 +300,9 @@ const showAsGallery = () => {
 }
 
 const runtime = () => {
+    if (location.href === 'https://gelbooru.com/') {
+        return;
+    }
     logger.debug(`Initialized with config ${JSON.stringify(configProxy)}`);
     createHTML();
     showAsGallery()
