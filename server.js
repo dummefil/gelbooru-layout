@@ -4,8 +4,8 @@ const {readFileSync} = require('fs')
 const port = 6868
 
 http.createServer((req, res) => {
-    if (req.url.startsWith('/index.js')) {
-        const content = readFileSync('./index.js', 'utf-8')
+    if (req.url.startsWith('/script.js')) {
+        const content = readFileSync('./script.js', 'utf-8')
         res.writeHead(200, {
             'Content-Type': 'text/javascript; charset=utf-8'
         })

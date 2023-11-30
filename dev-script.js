@@ -14,4 +14,4 @@ function addScript(url){
     script.setAttribute('src',url);
     document.getElementsByTagName('head')[0].appendChild(script);
 }
-addScript('http://localhost:6868/index.js')
+addScript('http://localhost:6868/script.js')
