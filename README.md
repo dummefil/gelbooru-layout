@@ -16,6 +16,7 @@ This repository contains two sets of styles: 'Minimal' and 'Minimalistic,' along
 2. May occasionally break. 🫣
 3. Mix of jQuery and plain JavaScript methods.
 4. Works only after a search is performed.
+5. Requires user permission for autoplay for the slider to function.
 
 ### Prerequisites
 * Tampermonkey to run the script:
