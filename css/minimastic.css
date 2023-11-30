@@ -1,0 +1,136 @@
+video.fit-width {
+    max-width: initial;
+    height: auto !important;
+    height: 100vh !important;
+    align-self: center;
+    width: 100%;
+}
+.topnav,
+.navSubmenu,
+#resize-link,
+br,
+#scrollebox,
+.headerAd,
+.footerAd,
+.footerAd2,
+div.searchArea a {
+    display: none
+}
+#image {
+    object-fit: contain;
+}
+
+#container.gallery {
+    height: auto;
+    overflow: auto;
+}
+
+#container {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.image-container {
+    font-size: 100%;
+    display: flex;
+    height: 100vh;
+}
+
+img.fit-width {
+    width: 100%;
+}
+
+
+
+.image-container picture {
+    object-fit: contain;
+    height: 100%;
+    display: flex;
+    width: 100%;
+}
+
+
+main {
+    margin-bottom: 75px;
+}
+
+.aside {
+    border: none;
+    overflow-y: auto;
+    padding-right: 20px;
+}
+
+.alert {
+    background: rgb(31, 31, 31);
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+div.searchArea #tags-search {
+    width: 400px !important;
+}
+
+div.searchArea {
+    background: rgb(31, 31, 31);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 3000;
+    margin: 0;
+    padding: 12px;
+    border-bottom-left-radius: 4px;
+}
+
+.mainBodyPadding {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.mainBodyPadding div:first-child,
+.mainBodyPadding iframe:first-child,
+.mainBodyPadding center:last-child,
+.mainBodyPadding a:first-child {
+    display: none
+}
+.searchArea {
+    height: auto !important;
+}
+
+[action="index.php?page=search"] {
+    display: flex;
+    gap: 8px;
+    height: 32px;
+    align-items: center;
+}
+
+[action="index.php?page=search"] [type="button"] {
+    height: calc(100% - 8px);
+    padding: 4px;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.checkbox-wrapper label {
+    white-space: nowrap;
+}
+
+.checkbox-wrapper [type="number"] {
+    width: 60px;
+    -moz-appearance: textfield;
+    height: calc(100% - 8px);
+    padding: 4px;
+}

@@ -1,0 +1,40 @@
+.searchArea {
+    height: auto !important;
+}
+
+[action="index.php?page=search"] {
+    display: flex;
+    gap: 8px;
+    height: 32px;
+    align-items: center;
+}
+
+[action="index.php?page=search"] [type="button"] {
+    height: calc(100% - 8px);
+    padding: 4px;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.checkbox-wrapper label {
+    white-space: nowrap;
+}
+
+.checkbox-wrapper [type="number"] {
+    width: 60px;
+    -moz-appearance: textfield;
+    height: calc(100% - 8px);
+    padding: 4px;
+}
