@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Gelbooru upgrade
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/dummefil/gelbooru-layout-upgrade
 // @version      1.0.0
 // @description  Set of QOL features to make gelbooru more user-friendly
 // @author       https://github.com/dummefil
