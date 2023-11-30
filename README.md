@@ -15,14 +15,15 @@ This repository contains two sets of styles: 'Minimal' and 'Minimalistic,' along
 1. Heavy dependency on Gelbooru's exposed methods.
 2. May occasionally break. 🫣
 3. Mix of jQuery and plain JavaScript methods.
+4. Works only after a search is performed.
 
 ### Prerequisites
 * Tampermonkey to run the script:
-    - [Chrome](https://chromewebstore.google.com/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-    - [Mozilla](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
+  - [Chrome](https://chromewebstore.google.com/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+  - [Mozilla](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 * Stylus to apply additional styles:
-    - [Chrome](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
-    - [Mozilla](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
+  - [Chrome](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
+  - [Mozilla](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 
 ### Visuals
 #### Minimal Styles
